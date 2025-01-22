@@ -108,10 +108,8 @@
         }
         @media (max-width: 480px) {
             .form-image img {
-                max-width: 95%; /* Use more of the mobile screen */
-                height: auto; /* Maintain aspect ratio */
-                display: block; /* Ensure proper alignment */
-                margin: 0 auto; /* Center the image horizontally */
+                max-width: 90%; /* Scale down image on mobile */
+                margin: 0 auto; /* Center align image on small screens */
             }
         }
     </style>
@@ -122,7 +120,7 @@
         <h1>免费体验申请表单 😍</h1>
         <div class="form-image">
             <img src="applicationimage_chn.jpg" alt="Application Form Image">        
-        <form action="https://formspree.io/f/xeoejnbn" method="POST">
+        <form action="https://formspree.io/f/xrbbnvol" method="POST">
             <div class="form-group">
                 <label for="name">姓名</label>
                 <input type="text" id="name" name="name" placeholder="请输入您的姓名" required>
